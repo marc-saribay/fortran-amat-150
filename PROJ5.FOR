@@ -1,0 +1,16 @@
+PROGRAM TO COMPUTE THE AREA OF A TRIANGLE
+
+      PRINT*,'THIS IS MY FIFTH PROGRAM'
+      PRINT*,'ENTER FIRST COORDINATE'
+      READ*,X1,Y1
+      PRINT*,'ENTER SECOND COORDINATE'
+      READ*,X2,Y2
+      PRINT*,'ENTER THIRD COORDINATE'
+      READ*,X3,Y3
+      A=SQRT((X1-X2)**2+(Y1-Y2)**2)     
+      B=SQRT((X1-X3)**2+(Y1-Y3)**2)     
+      C=SQRT((X2-X3)**2+(Y2-Y3)**2)
+      S=(A+B+C)/2
+      AREA=SQRT(S*(S-A)*(S-B)*(S-C))
+      PRINT*,AREA
+      END
